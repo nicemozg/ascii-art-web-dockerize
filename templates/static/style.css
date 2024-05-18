@@ -1,0 +1,37 @@
+.container {
+    width: 1000px;
+    height: 100vh;
+}
+
+body {
+    margin-top: 0px;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+}
+
+.logo {
+    width: 100px;
+}
+
+textarea {
+    border-radius: 10px;
+    resize: vertical; /* Разрешаем изменение размеров только по вертикали */
+    min-height: 100px; /* Минимальная высота поля */
+    max-height: 300px; /* Максимальная высота поля */
+  }
+
+
+pre {
+    overflow-x: auto;
+    overflow-y: auto;
+    white-space: pre;
+    font-family: monospace;
+    font-size: 14px;
+    width: 100%;
+    max-width: 800px;
+    height: 220px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
